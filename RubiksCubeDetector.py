@@ -81,7 +81,6 @@ count=0
 while(1==1):
     count+=1
     ret, frame = cap.read()
-    frame = cv2.imread("original.image.3.png")
     img = frame.copy()
     im2 = frame.copy()
     #gray image
